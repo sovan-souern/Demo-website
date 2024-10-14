@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+nav,nav ul{
+    display: flex;
+}
+nav{
+    justify-content: space-between;
+    /* background: teal; */
+    text-align: center;
+    padding: 14px;
+    color: black;
+    font-weight: bold;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li a{
+    padding: 12px;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+main{
+    background-image: url(https://cdn.pixabay.com/photo/2016/12/03/16/43/togetherness-1880155_1280.jpg);
+    background-size: cover;
+    height: 80vh;
+}
+main .content{
+    margin-left: 80px;
+    padding: 80px 0px 0px 0px;
+}
+main .content h2{
+    font-size: 30px;
+    color: white;
+}
+main .content p{
+    font-size: 12px;
+    color: white;
+    margin-top: 10px;
+}
+main .content button{
+    padding: 8px 14px;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.container {
+    display: flex;
+    /* justify-content: space-between; */
+}
+.left {
+    width: 50%;
+    padding: 50px 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    /* background: black; */
+}
+.left .card {
+    width: 260px;
+    height: 25vh;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    text-align: center;
+}
+.right{
+    width: 50%;
+    padding: 50px 0px;
+}
+.right .right-left{
+    padding: 0px 50px;
+}
+.right .right-left p{
+    padding: 10px;
+}
+.right .right-left h1{
+    padding: 10px;
+    color: #0D2590;
+}
+.right .right-left .button-right{
+    padding: 10px;
+}
+.right .right-left .button-right button{
+    padding: 10px 34px;
+    border: none;
+    border-radius: 20px;
+    background: #2EB3A4;
+    color: white;
+}
+.top-p{
+    text-align: center;
+}
+.top-p h1{
+    color: #0D2590;
+    padding: 10px;
+    margin-top: 50px;
+}
+.pic-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pic-logo{
+    padding: 10px;
+    margin: 20px;
+    column-gap: 10%;
+}
+.pic-logo img{
+    width: 100px;
+    height: 50px;
+    margin-top: 50px;
+}
+.top-p1{
+    text-align: center;
+    
+}
+.top-p1 h1{
+    color: #0D2590;
+    padding: 10px;
+    margin-top: 100px;
+}
+.card-left {
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.card-left .card {
+    width: 350px;
+    height: 25vh;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 0px 0px 20px;
+}
+.card-left .card span,h4,p{
+    padding: 5px;
+}
+.picture{
+    width: 100%;
+    display: flex;
+}
+.picture, .new-rigth{
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 55vh;
+}
+.picture .logo-1 img{
+    width: 20px;
+}
+.pic-left{
+    width: 40%;
+}
+.pic-left .card-picture{
+    width: 300px;
+    height: 50vh;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px 0px 0px 20px;
+    background: blue;
+    margin-left: 200px;
+}
+.pic-left .card-picture img{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+    bottom: 45px;
+    right: 30px;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    column-gap: 20%;
+    margin-top: 8%;
+}
+.contact .number h1{
+    color: #0D2590;
+}
+.video{
+    padding: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6%;
+}
+.full-card{
+    height: 40vh;
+    padding: 20px;
+    text-align: center;
+    background: linear-gradient(rgba(9,9,65,0.884),teal);
+    margin-top: 20px;
+}
+.full-card h2{
+    color: white;
+    margin-top: 30px;
+}
+.full-card .full-button button{
+    padding: 16px 24px;
+    width: 20%;
+    border: none;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+.full-card .b{
+    padding: 10px 24px;
+    width: 10%;
+    background: linear-gradient(rgba(9,9,65,0.884),teal);
+    border: none;
+    border: solid 1px white;
+    border-radius: 20px;
+    margin-top: 20px;
+    color: white;
+}
+.footer{
+    display: flex;
+    padding: 30px 0px;
+    justify-content: space-around;
+}
+.footer .l h2{
+    color: #0D2590;
+    padding: 10px 0px;
+}
+.footer .r h4{
+    color: #0D2590;
+    padding: 10px 0px;
+}
